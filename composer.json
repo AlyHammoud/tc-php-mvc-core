@@ -1,0 +1,15 @@
+{
+    "name": "tc/php-mvc-core",
+    "autoload": {
+        "psr-4": {
+            "Tc\\PhpMvcCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AlyHammoud",
+            "email": "99489154+AlyHammoud@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
