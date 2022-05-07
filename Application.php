@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Core;
+namespace Alimvc\PhpMvc;
 
-use App\Core\Db\Database;
-use App\Core\Db\DbModel;
+use Alimvc\PhpMvc\Db\Database;
+use Alimvc\PhpMvc\Db\DbModel;
 use App\Models\User;
 
 /**
@@ -11,7 +11,7 @@ use App\Models\User;
  * Class Application
  *
  * @author Ali H <ham***@gmail.com
- * @package App\Core
+ * @package Alimvc\PhpMvc
  *
  */
 class Application

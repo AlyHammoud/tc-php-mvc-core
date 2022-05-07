@@ -1,5 +1,5 @@
 {
-    "name": "alimvc/php-mvc-core",
+    "name": "alimvc/PhpMvc",
     "autoload": {
         "psr-4": {
             "Tc\\PhpMvcCore\\": "src/"
@@ -11,5 +11,10 @@
             "email": "99489154+AlyHammoud@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Alimvc\\PhpMvc" : "."
+        }
+    }
 }

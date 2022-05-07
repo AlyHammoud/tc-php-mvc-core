@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Core\Db;
+namespace Alimvc\PhpMvc\Db;
 
-use App\Core\Application;
-use App\Core\Model;
+use Alimvc\PhpMvc\Application;
+use Alimvc\PhpMvc\Model;
 
 abstract class DbModel extends Model
 {

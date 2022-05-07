@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Core\Middlewares;
+namespace Alimvc\PhpMvc\Middlewares;
 
-use App\Core\Application;
-use App\Core\Exceptions\ForbiddenException;
+use Alimvc\PhpMvc\Application;
+use Alimvc\PhpMvc\Exceptions\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

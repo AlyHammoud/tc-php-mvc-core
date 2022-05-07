@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core;
+namespace Alimvc\PhpMvc;
 
-use App\Core\Db\DbModel;
+use Alimvc\PhpMvc\Db\DbModel;
 
 abstract class UserModel extends DbModel
 {

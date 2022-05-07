@@ -1,16 +1,16 @@
 <?php
 
 
-namespace App\Core;
+namespace Alimvc\PhpMvc;
 
-use App\Core\Exceptions\NotFoundException;
+use Alimvc\PhpMvc\Exceptions\NotFoundException;
 
 /**
  *
  * Class Application
  *
  * @author Ali H <ham***@gmail.com
- * @package App\Core
+ * @package Alimvc\PhpMvc
  *
  */
 
@@ -68,8 +68,8 @@ class Router
 ///
                 //after milddleware:
             /**
-             * @var \App\Core\Controller $controller
-             * @var \App\Core\Middlewares\BaseMiddleware $middleware
+             * @var \Alimvc\PhpMvc\Controller $controller
+             * @var \Alimvc\PhpMvc\Middlewares\BaseMiddleware $middleware
             */
             $controller = new $callback[0]; //instance of the router, //controller which is defined in db as property, assign it to the new class
             Application::$app->controller = $controller;

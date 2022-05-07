@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Core;
+namespace Alimvc\PhpMvc;
 
-use App\Core\Middlewares\BaseMiddleware;
+use Alimvc\PhpMvc\Middlewares\BaseMiddleware;
 
 class Controller
 {
     public string $layout = 'main';
     public string $actions = '';
     /*
-     * @var App\Core\Middlewares\BaseMiddleware[]
+     * @var Alimvc\PhpMvc\Middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 

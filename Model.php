@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core;
+namespace Alimvc\PhpMvc;
 
 abstract class Model
 {

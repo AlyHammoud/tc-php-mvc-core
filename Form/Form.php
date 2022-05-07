@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core\Form;
+namespace Alimvc\PhpMvc\Form;
 
-use App\Core\Model;
+use Alimvc\PhpMvc\Model;
 
 class Form
 {

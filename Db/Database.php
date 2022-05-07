@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core\Db;
+namespace Alimvc\PhpMvc\Db;
 
-use App\Core\Application;
+use Alimvc\PhpMvc\Application;
 
 class Database
 {
